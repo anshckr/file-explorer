@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+}
+
+.file,
+.folder {
+  cursor: pointer;
+}
+
+.folder__name:hover {
+  background: #9e9e9e;
+}
+
+.file__name:hover {
+  background: #f1f1f1;
+}
+
+.file--active {
+  color: green;
+}
